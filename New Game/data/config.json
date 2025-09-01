@@ -1,0 +1,15 @@
+{
+    "gameTitle": "Pixel Adventure",
+    "font": "main_font",
+    "player": {
+        "speed": 80,
+        "jumpVelocity": -150,
+        "health": 3
+    },
+    "enemies": {
+        "slime": {
+            "health": 1,
+            "speed": 20
+        }
+    }
+}
