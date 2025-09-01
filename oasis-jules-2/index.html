@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Oasis Jules 2</title>
+    <style>
+        body {
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #game-container {
+            border: 5px solid #333;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+    <!-- Objects -->
+    <script src="src/objects/Player.js"></script>
+    <script src="src/objects/Enemy.js"></script>
+    <script src="src/objects/Projectile.js"></script>
+    <script src="src/objects/ItemTooltip.js"></script>
+    <script src="src/GameDataManager.js"></script>
+    <!-- Scenes -->
+    <script src="src/scenes/BootScene.js"></script>
+    <script src="src/scenes/LevelScene.js"></script>
+    <script src="src/scenes/MainMenuScene.js"></script>
+    <script src="src/scenes/LevelSelectScene.js"></script>
+    <script src="src/scenes/HUDScene.js"></script>
+    <!-- Main Entry Point -->
+    <script src="src/main.js"></script>
+</body>
+</html>

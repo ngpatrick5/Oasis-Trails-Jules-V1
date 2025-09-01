@@ -1,0 +1,63 @@
+{
+    "simple_sword": {
+        "name": "Simple Sword",
+        "description": "A basic, reliable blade.",
+        "icon": "icon_sword",
+        "rarity": "Common",
+        "value": 5,
+        "stackable": false,
+        "equipSlot": "main_hand",
+        "action": "equip",
+        "stats": {
+            "dmgReflect": 10,
+            "regenStam": 0.5
+        }
+    },
+    "iron_helm": {
+        "name": "Iron Helm",
+        "description": "A sturdy helmet offering decent protection.",
+        "icon": "icon_helm",
+        "rarity": "Common",
+        "value": 10,
+        "stackable": false,
+        "equipSlot": "head",
+        "action": "equip",
+        "stats": {
+            "maxHP": 10,
+            "maxStamina": 5
+        }
+    },
+    "oak_log": {
+        "name": "Oak Log",
+        "description": "A sturdy log, useful for crafting.",
+        "icon": "icon_log",
+        "rarity": "Common",
+        "value": 1,
+        "stackable": true,
+        "maxStack": 99,
+        "action": "view"
+    },
+    "scroll_of_fire_shield": {
+        "name": "Scroll: Fire Shield",
+        "description": "A lost prayer written on ancient parchment.",
+        "icon": "icon_scroll",
+        "rarity": "Uncommon",
+        "value": 50,
+        "stackable": false,
+        "action": "learn",
+        "unlocks": "fire_shield"
+    },
+    "blessed_ring": {
+        "name": "Blessed Ring",
+        "description": "A ring that emanates a faint, warm glow.",
+        "icon": "icon_helm",
+        "rarity": "Rare",
+        "value": 100,
+        "stackable": false,
+        "equipSlot": "ring1",
+        "action": "equip",
+        "stats": {
+            "regenHP": 0.25
+        }
+    }
+}

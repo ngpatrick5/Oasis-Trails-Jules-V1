@@ -1,0 +1,43 @@
+[
+    {
+        "id": "level1",
+        "name": "01",
+        "enemyStats": { "attackDelay": 4000, "minProjectiles": 1, "maxProjectiles": 3, "minGroups": 1, "maxGroups": 1, "delayBetweenGroups": 200 },
+        "lootTable": [
+            { "itemId": "oak_log", "chance": 0.75, "minQty": 1, "maxQty": 5 },
+            { "itemId": "iron_helm", "chance": 1, "minQty": 1, "maxQty": 1 }
+        ],
+        "challenges": [
+            { "type": "noDamage", "description": "Flawless Victory (End level at 100% health)" },
+            { "type": "highStamina", "value": 95, "description": "Prayer Flicker (End level above 95% prayer)" },
+            { "type": "timeLimit", "value": 15, "description": "Speed Run (Under 15 seconds)" }
+        ]
+    },
+    {
+        "id": "level2",
+        "name": "02",
+        "enemyStats": { "attackDelay": 3500, "minProjectiles": 2, "maxProjectiles": 3, "minGroups": 1, "maxGroups": 2, "delayBetweenGroups": 250 },
+        "lootTable": [
+            { "itemId": "simple_sword", "chance": 0.15, "minQty": 1, "maxQty": 1 },
+            { "itemId": "scroll_of_fire_shield", "chance": 0.05, "minQty": 1, "maxQty": 1 }
+        ],
+        "challenges": [
+            { "type": "noDamage", "description": "Flawless Victory (End level at 100% health)" },
+            { "type": "highStamina", "value": 95, "description": "Prayer Flicker (End level above 95% prayer)" },
+            { "type": "timeLimit", "value": 15, "description": "Speed Run (Under 15 seconds)" }
+        ]
+    },
+    {
+        "id": "level3",
+        "name": "03",
+        "enemyStats": { "attackDelay": 4000, "minProjectiles": 1, "maxProjectiles": 2, "minGroups": 3, "maxGroups": 3, "delayBetweenGroups": 150 },
+        "lootTable": [
+            { "itemId": "oak_log", "chance": 1, "minQty": 10, "maxQty": 20 }
+        ],
+        "challenges": [
+            { "type": "noDamage", "description": "Flawless Victory (End level at 100% health)" },
+            { "type": "highStamina", "value": 95, "description": "Prayer Flicker (End level above 95% prayer)" },
+            { "type": "timeLimit", "value": 15, "description": "Speed Run (Under 15 seconds)" }
+        ]
+    }
+]
